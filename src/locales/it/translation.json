@@ -1,0 +1,60 @@
+{
+  "cardCreate": {
+    "cardBack": "Retro della carta",
+    "cardFront": "Davanti alla carta",
+    "category": "Categoria",
+    "create": "Creare",
+    "createError": "Impossibile creare la carta.",
+    "description": "Descrizione",
+    "max": "Massimo {{characters}} caratteri",
+    "or": "--- o ---",
+    "selectCategory": "Seleziona una categoria",
+    "titleCreate": "Crea una carta memo",
+    "titleUpdate": "Modificare carta memo",
+    "typeNew": "scrivi una nuova categoria",
+    "update": "Aggiornare",
+    "updateError": "Impossibile aggiornare la carta."
+  },
+  "cardsView": {
+    "back": "torna",
+    "success": "Congratulazioni! Ha esaminato tutte le carte!",
+    "tip": "Premi per capovolgere la carta. Scorri verso destra per vedere la carta successiva.",
+    "title": "Rivedere le carte"
+  },
+  "global": {
+    "anErrorOccurred": "Rivedere le carte!",
+    "no": "No",
+    "ok": "OK",
+    "title": "Carte",
+    "yes": "Sì"
+  },
+  "home": {
+    "category": "Categoria: {{category}}",
+    "deleteCard": "Intende eliminare {{title}}?",
+    "deleteCardHeader": "Eliminare la carta?",
+    "deleteError": "Impossibile eliminare la carta.",
+    "error": "Impossibile caricare le carte.",
+    "lastSeen": "Ultima visualizzazione: {{date}}",
+    "listSubtitle": "Total {{nrOfCards}}",
+    "only": "solo",
+    "noCards": "Non ci sono carte da mostrare.",
+    "search": "Ricerca..."
+  },
+  "notifications": {
+    "remember": "Ti ricordi {{card}}?",
+    "title": "Rinfresca la tua memoria!!!"
+  },
+  "settings": {
+    "dark": "oscura",
+    "english": "inglese",
+    "french": "francese",
+    "german": "tedesco",
+    "italian": "italiano",
+    "language": "Linguaggio",
+    "light": "chiara",
+    "portuguese": "portoghese",
+    "spanish": "spagnolo",
+    "theme": "Tema",
+    "title": "Impostazioni"
+  }
+}

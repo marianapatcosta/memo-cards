@@ -1,0 +1,60 @@
+{
+  "cardCreate": {
+    "cardBack": "Rückseite der Karte",
+    "cardFront": "Vorderseite der Karte",
+    "category": "Kategorie",
+    "create": "Erstellen",
+    "createError": "Karte konnte nicht erstellt werden.",
+    "description": "Bezeichnung",
+    "max": "Max  {{characters}} Zeichen",
+    "or": "--- oder ---",
+    "selectCategory": "Wählen Sie eine Kategorie aus",
+    "titleCreate": " erstellen",
+    "titleUpdate": "Memo-Karte bearbeiten",
+    "typeNew": "Geben Sie eine neue Kategorie ein",
+    "update": "Aktualisieren",
+    "updateError": "Karte konnte nicht aktualisiert werden."
+  },
+  "cardsView": {
+    "back": "zurück",
+    "success": "Herzlichen Glückwunsch! Sie haben alle Karten überprüft!",
+    "tip": "Drücken Sie, um die Karte umzudrehen. Wischen Sie nach rechts, um die nächste Karte zu überprüfen.",
+    "title": "Überprüfen Sie die Karten"
+  },
+  "global": {
+    "anErrorOccurred": "Ein Fehler ist aufgetreten!",
+    "no": "Nein",
+    "ok": "OK",
+    "title": "Memo Karten",
+    "yes": "Ja"
+  },
+  "home": {
+    "category": "Kategorie: {{category}}",
+    "deleteCard": "Möchten Sie {{title}} löschen?",
+    "deleteCardHeader": "Karte löschen?",
+    "deleteError": "Karte konnte nicht gelöscht werden.",
+    "error": "Die Karten konnten nicht geladen werden.",
+    "lastSeen": "Zuletzt gesehen: {{date}}",
+    "listSubtitle": "Total {{nrOfCards}}",
+    "only": "nur",
+    "noCards": "Keine Karten zum Anzeigen.",
+    "search": "Suche..."
+  },
+  "notifications": {
+    "remember": "Erinnern Sie {{card}}?",
+    "title": "Frischen Sie Ihr Gedächtnis auf!!!"
+  },
+  "settings": {
+    "dark": "dunkel",
+    "english": "Englisch",
+    "french": "Französisch",
+    "german": "Deutsch",
+    "italian": "Italienisch",
+    "language": "Sprache",
+    "light": "hell",
+    "portuguese": "Portugiesisch",
+    "spanish": "Spanisch",
+    "theme": "Thema",
+    "title": "Einstellungen"
+  }
+}

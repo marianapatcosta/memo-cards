@@ -1,0 +1,60 @@
+{
+  "cardCreate": {
+    "cardBack": "Dos de carte",
+    "cardFront": "Recto de la carte",
+    "category": "Catégorie",
+    "create": "Créer",
+    "createError": "Impossible de créer la carte.",
+    "description": "Description",
+    "max": "Max {{characters}} caractères",
+    "or": "--- ou ---",
+    "selectCategory": "Choisir un catégorie",
+    "titleCreate": "Créer une carte mémo",
+    "titleUpdate": "Modifier la carte mémo",
+    "typeNew": "écrire une nouvelle catégorie",
+    "update": "Mettre à jour",
+    "updateError": "Impossible de mettre à jour la carte."
+  },
+  "cardsView": {
+    "back": "retour",
+    "success": "Toutes nos félicitations! Vous avez passé en revue toutes les cartes!",
+    "tip": "Appuyez sur pour retourner la carte. Balayez vers la droite pour voir la carte suivante.",
+    "title": "Revoir les cartes"
+  },
+  "global": {
+    "anErrorOccurred": "Une erreur est survenue!",
+    "no": "Non",
+    "ok": "OK",
+    "title": "Cartes",
+    "yes": "Oui"
+  },
+  "home": {
+    "category": "Catégorie: {{category}}",
+    "deleteCard": "Voulez-vous supprimer {{title}}?",
+    "deleteCardHeader": "Supprimer la carteo?",
+    "deleteError": "Impossible de supprimer la carte.",
+    "error": "Impossible de charger les cartes.",
+    "lastSeen": "Dernière vue: {{date}}",
+    "listSubtitle": "Total {{nrOfCards}}",
+    "only": "seul",
+    "noCards": "Aucune carte à afficher.",
+    "search": "Chercher..."
+  },
+  "notifications": {
+    "remember": "Souvenez-vous de {{card}}?",
+    "title": "Rafraîchissez votre mémoire!!!"
+  },
+  "settings": {
+    "dark": "sombre",
+    "english": "anglais",
+    "french": "français",
+    "german": "allemand",
+    "italian": "italien",
+    "language": "Langue",
+    "light": "lumière",
+    "portuguese": "portugais",
+    "spanish": "espagnol",
+    "theme": "Thème",
+    "title": "Réglages"
+  }
+}

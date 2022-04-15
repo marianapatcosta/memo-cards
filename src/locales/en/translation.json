@@ -1,0 +1,61 @@
+{
+  "cardCreate": {
+    "cardBack": "Card Back",
+    "cardFront": "Card Front",
+    "category": "Category",
+    "create": "Create",
+    "createError": "It was not possible to create the card.",
+    "description": "Description",
+    "max": "Max {{characters}} characters",
+    "or": "--- or ---",
+    "selectCategory": "Select a category",
+    "titleCreate": "Create a memo card",
+    "titleUpdate": "Edit memo card",
+    "typeNew": "Type new category",
+    "update": "Update",
+    "updateError": "It was not possible to update the card."
+  },
+  "cardsView": {
+    "back": "back",
+    "success": "Congratulations! You reviewed all the cards!",
+    "tip": "Press to flip the card. Swipe right to check next card.",
+    "title": "Review the cards"
+  },
+  "global": {
+    "anErrorOccurred": "An error occurred!",
+    "no": "No",
+    "ok": "OK",
+    "title": "Memo Cards",
+    "yes": "Yes"
+  },
+  "home": {
+    "category": "Category: {{category}}",
+    "deleteCard": "Do you want to delete {{title}}?",
+    "deleteCardHeader": "Delete card?",
+    "deleteError": "It was not possible to delete the card.",
+    "error": "It was not possible to load the cards.",
+    "greetingSentence": "Let's refresh your memory!!!",
+    "lastSeen": "Last seen: {{date}}",
+    "listSubtitle": "Total {{nrOfCards}}",
+    "only": "only",
+    "noCards": "No cards to display.",
+    "search": "Search..."
+  },
+  "notifications": {
+    "remember": "Do you remember {{card}}?",
+    "title": "Refresh your memory!!!"
+  },
+  "settings": {
+    "dark": "dark",
+    "english": "english",
+    "french": "french",
+    "german": "german",
+    "italian": "italian",
+    "language": "Language",
+    "light": "light",
+    "portuguese": "portuguese",
+    "spanish": "spanish",
+    "theme": "Theme",
+    "title": "Settings"
+  }
+}
