@@ -8,6 +8,8 @@ Mobile app that allows to create, edit, delete and visualize memo flashcards wit
 - Spanish (es-ES)
 - Italian (it-IT)
 
+![Group 727](https://user-images.githubusercontent.com/43031902/163649545-f1746edc-7bc6-4096-a0de-b6340ba513aa.png)
+
 Download it from [Google Play Store](https://).
 
 ## Project setup
