@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "memo-cards",
+    "slug": "memo-cards",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#dc1c13"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.costa.mariana.memo.cards",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#dc1c13"
+      },
+      "useNextNotificationsApi": true,
+      "package": "com.costa.mariana.memo.cards",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#dc1c13",
+          "androidCollapsedTitle": "Memo Cards",
+          "androidMode": "default",
+          "sounds": [],
+          "iosDisplayInForeground": true
+        }
+      ]
+    ]
+  }
+}
