@@ -34,7 +34,7 @@ type CardsProviderProps = {
   children: ReactNode
 }
 
-const AuthContext = createContext({} as CardContextData)
+const CardsContext = createContext({} as CardContextData)
 
 const CardsContextProvider = ({ children }: CardsProviderProps) => {
   const [allCards, setAllCards] = useState<CardItemData[]>([])
@@ -57,7 +57,7 @@ const CardsContextProvider = ({ children }: CardsProviderProps) => {
         content: {
           title: t('notifications.title'),
           body: t('notifications.remember', {
-            card: String(Math.random().toFixed(3)),
+            card: cards[cardIndex].back,
           }),
           data: { cardIndex },
           priority: 'high',
@@ -65,7 +65,7 @@ const CardsContextProvider = ({ children }: CardsProviderProps) => {
         },
         trigger: {
           hour: 20,
-          minute: 45,
+          minute: 40,
           repeats: true,
         },
       })
@@ -182,7 +182,7 @@ const CardsContextProvider = ({ children }: CardsProviderProps) => {
   }, [])
 
   return (
-    <AuthContext.Provider
+    <CardsContext.Provider
       value={{
         allCards,
         cards,
@@ -197,13 +197,13 @@ const CardsContextProvider = ({ children }: CardsProviderProps) => {
       }}
     >
       {children}
-    </AuthContext.Provider>
+    </CardsContext.Provider>
   )
 }
 
 const useCards = () => {
-  const authContext = useContext(AuthContext)
-  return authContext
+  const context = useContext(CardsContext);
+  return context
 }
 
 export { CardsContextProvider, useCards }

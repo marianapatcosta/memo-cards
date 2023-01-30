@@ -17,11 +17,12 @@ export const Input = ({
   icon,
   error,
   placeholderTextColor,
+  style,
   ...otherProps
 }: InputProps) => {
   const theme = useTheme()
   return (
-    <StyledContainer>
+    <StyledContainer style={style}>
       <StyledInputWrapper>
         <StyledInput
           {...otherProps}

@@ -208,6 +208,7 @@ export const Home = () => {
           />
           <StyledRow>
             <Input
+              style={{ flex: 1 }}
               value={keyword}
               onChangeText={setKeyword}
               placeholder={t('home.search')}

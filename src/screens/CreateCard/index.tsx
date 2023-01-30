@@ -56,7 +56,7 @@ export const CreateCard = () => {
       !!cardBack &&
       cardBack.length < 100 &&
       !!cardFront,
-    [category, cardFront, cardBack]
+    [category, newCategory, cardFront, cardBack]
   )
 
   const navigation = useNavigation()

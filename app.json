@@ -32,6 +32,13 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "notification": {
+      "icon": "./assets/notification-icon.png",
+      "color": "#dc1c13",
+      "androidMode": "default",
+      "androidCollapsedTitle": "Memo Cards",
+      "iosDisplayInForeground": true
+    },
     "plugins": [
       [
         "expo-notifications",

@@ -2,7 +2,7 @@ import styled from 'styled-components/native'
 import { StyledRegularText } from '../../themes/global-styles'
 
 export const StyledContainer = styled.View`
-  flex: 1;
+
 `
 
 export const StyledInputWrapper = styled.View`
